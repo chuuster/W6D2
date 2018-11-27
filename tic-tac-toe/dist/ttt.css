@@ -1,19 +1,59 @@
+li {
+  font-size: 200px;
+  list-style: none;
+  line-height: 0;
+  width: 240px;
+  height: 240px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .black {
   background-color: black;
-  width: 1000px;
-  height: 1000px;
+  width: 780px;
+  height: 780px;
+  margin: 0 auto;
   display: flex;
+  justify-content: space-around;
   flex-wrap: wrap;
+  align-content: space-around;
+}
+
+h1 {
+  font-size: 80px;
+  margin: 0 auto;
 }
 
 .square {
-  list-style: none;
-  width: 300px;
-  height: 300px;
-  margin: 10px;
   background-color: gray;
 }
 
 .square:hover {
   background-color: yellow;
+}
+
+body {
+  background-color: lightgray;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.marked {
+  background-color: white;
+}
+
+body div {
+  font-size: 60px;
+  margin: 0 auto;
+}
+
+.winner {
+  background-color: green;
+  color: red;
+}
+
+.loser {
+  background-color: white;
 }
